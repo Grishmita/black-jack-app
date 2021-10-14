@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aleo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,600&display=swap');
+
+
+h1{
+	color: goldenrod;
+	font-family: 'IBM Plex Serif', serif;
+	font-size: 2.5rem;
+	
+}
+
+body{
+	background-image: url('Casino.png');
+	 background-position: center; 
+     background-repeat: no-repeat; 
+     background-size: cover; 
+     margin:0;
+
+    
+}
+
+
+
+.div-1{
+	background-image: url('div-bg.jpg');
+	 background-position: center; 
+     background-repeat: no-repeat; 
+     background-size: cover; 
+
+     text-align: center;
+
+    padding: 20px;
+    border-radius: 15px;
+   
+   box-shadow: -1px 0px 70px -13px rgba(16,15,15,0.75);
+-webkit-box-shadow: -1px 0px 70px -13px rgba(16,15,15,0.75);
+-moz-box-shadow: -1px 0px 70px -13px rgba(16,15,15,0.75);
+}
+
+p{
+	font-family: 'Aleo', serif;
+	font-weight:500;
+	color: #EDEDED;
+	font-size: 1.5rem;
+}
+
+button{
+	background-color: #950101;
+    border-style: dashed;
+    margin: 8px auto;
+    height: 35px;
+    border-width: 3.5px;
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+
+
+}
+
+.div-2{
+	 background-image: url('suedo-bg.jpg');
+	 background-position: center; 
+     background-repeat: no-repeat; 
+     background-size: cover;
+
+
+     width: 50%;
+     margin: 100px auto; 
+     padding: 35px;
+    border-radius: 20px;
+
+   box-shadow: -1px 0px 70px -13px rgba(16,15,15,0.75);
+-webkit-box-shadow: -1px 0px 70px -13px rgba(16,15,15,0.75);
+-moz-box-shadow: -1px 0px 70px -13px rgba(16,15,15,0.75);
+
+}
+
+@media (max-width: 420px){
+	.div-2{
+		width: 80%;
+		padding: 15px;
+	}
+
+
+
+}
+
+
+@media (min-width: 450px), (max-width:900px){
+	.div-2{
+		width: 80%;
+		
+	}
+
+
+
+}
+
+
+
+@media (min-width: 1000px){
+	.div-2{
+		width: 50%;
+		
+	}
