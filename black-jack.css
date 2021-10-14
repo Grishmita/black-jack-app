@@ -55,7 +55,7 @@ button{
     border-color: white;
     color: white;
 
-
+    cursor: pointer;
 }
 
 .div-2{
@@ -75,6 +75,17 @@ button{
 -moz-box-shadow: -1px 0px 70px -13px rgba(16,15,15,0.75);
 
 }
+
+
+button:hover{
+	 border-color: #950101;
+     color: #950101;
+
+     background-color: white;
+
+}
+
+
 
 @media (max-width: 420px){
 	.div-2{
