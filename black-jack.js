@@ -59,7 +59,7 @@ document.getElementById("cards-el").textContent = "Cards: "
 		document.getElementById("cards-el").textContent += cards[i] + " "
 	}
 
-	document.getElementById("sum-el").textContent = "Sum: " + sum
+	document.getElementById("sum-el").textContent = "Total: " + sum
 
 	console.log(sum)
     // document.getElementById("cards-el").textContent = "Cards: " +" " + firstCard +" "+ secondCard
